@@ -25,7 +25,7 @@ h2{
 	margin-top: 50px;
 }
 
-.summary, .preamble, .explanation { 
+.summary, .preamble, .explanation, .requirements{
 	font-family: 'Chalkduster', fantasy;
 	color: black;
 	font-size: 15px;
@@ -34,7 +34,9 @@ h2{
 	text-align: justify;
 }
 
-[href="/examples/index"], [href="/examples/style.css" ]{
+[href="/examples/index"], [href="/examples/style.css" ], [href="http://validator.w3.org/check/referer"], 
+[href="http://jigsaw.w3.org/css-validator/check/referer"], [href="http://creativecommons.org/licenses/by-nc-sa/3.0/"],
+[href="http://mezzoblue.com/zengarden/faq/#aaa"], [href="https://github.com/mezzoblue/csszengarden.com"] {
 	font-family: 'Helvetica', serif;
 	color: #d231ab;
 	text-transform: uppercase;
@@ -49,46 +51,122 @@ h2{
 }
 
 div #zen-participation{
-	margin-top: 0px;
+	margin-top: 50px;
 	margin-left: -50px;
 	margin-right: -200px;
+	margin-bottom: 20px;
+	background-image: url(imagenes/autumn-leaves.jpg);
+	padding: 30px;
+	padding-bottom: 140px;
+}
+
+div #zen-benefits{
+	margin-top: 50px;
+	margin-left: -50px;
+	margin-right: -200px;
+	margin-bottom: 0px;
 	background-image: url(imagenes/autumn-leaves.jpg);
 	padding: 30px;
 	padding-bottom: 140px;
 }
 
 .participation h3{
+	margin-left: 500px;
 	font-family: 'Helvetica', serif;
-	color: #831769;
+	color: #d0238b;
 	text-transform: uppercase;
 	font-size: 25px;
 	margin-left: 90px;
 }
 
 .participation p{
+	font-size: 5px;
 	font-family: 'Chalkduster', fantasy;
 	color: white;
 	font-size: 18px;
-	margin-right: 255px;
+	margin-right: 240px;
 	margin-left: 90px;
 	text-align: justify;
 }
+
 .benefits h3{
-	font-family: 'Josefin Slab', serif;
-	color: #83172B;
+	font-family: 'Helvetica', serif;
+	color: #d0238b;
 	text-transform: uppercase;
-	margin-top: -130px;
+	margin-top: 0px;
 	margin-right: 280px;
 	font-size: 25px;
 	margin-left: 30px;
 }
 
 .benefits p{
-	font-family: 'Josefin Slab', serif;
+	font-family: 'Chalkduster', fantasy;
 	color: white;
 	font-size: 18px;
-	margin-right: 150px;
-	margin-left: 30px;
+	margin-right: 240px;
+	margin-left: 90px;
 	text-align: justify;
-
 }
+
+.design-selection, .design-archives h3{
+	font-family: 'Helvetica', serif;
+	color: #831769;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.design-selection li{
+	font-family: 'Chalkduster', fantasy;
+	color: black;
+	font-size: 15px;
+	margin-right: 70px;
+	margin-left: 70px;
+	text-align: justify;
+}
+
+.design-selection a{
+	font-family: 'Helvetica', serif;
+	color: #d231ab;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.design-archives li{
+	font-family: 'Chalkduster', fantasy;
+	color: black;
+	font-size: 15px;
+	margin-right: 70px;
+	margin-left: 70px;
+	text-align: justify;
+}
+
+.design-archives a{
+	font-family: 'Helvetica', serif;
+	color: #d231ab;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.zen-resources h3 {
+	font-family: 'Helvetica', serif;
+	color: #831769;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+.zen-resources a{
+	font-family: 'Helvetica', serif;
+	color: #d231ab;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.zen-resources li{
+	font-family: 'Chalkduster', fantasy;
+	color: black;
+	font-size: 15px;
+	margin-right: 70px;
+	margin-left: 70px;
+	text-align: justify;
+}
+
